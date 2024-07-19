@@ -15,7 +15,7 @@ func _ready():
 	Eventbus.hit.connect(placeApple)
 	placeApple()
 	
-	# Centrer la fenêtre sur l'écran
+	# Centre la fenêtre sur l'écran
 	var screenSize = DisplayServer.screen_get_size()
 	var windowPosition = (screenSize - windowSize) / 2
 	DisplayServer.window_set_position(windowPosition)

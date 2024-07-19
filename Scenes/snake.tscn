@@ -12,6 +12,7 @@ script = ExtResource("1_1dorg")
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 
 [node name="Head" type="Sprite2D" parent="CharacterBody2D"]
+rotation = 1.5708
 texture = ExtResource("2_ld11j")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
